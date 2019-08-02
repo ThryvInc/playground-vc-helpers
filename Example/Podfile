@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PlaygroundVCHelpers_Example' do
+  pod 'PlaygroundVCHelpers', :path => '../'
+
+  target 'PlaygroundVCHelpers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
