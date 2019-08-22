@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PlaygroundVCHelpers'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PlaygroundVCHelpers.'
+  s.version          = '0.0.1'
+  s.summary          = 'PlaygroundVCHelpers allows you to work with storyboard and xib based UIViewControllers in playgrounds.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+PlaygroundVCHelpers allows you to work with storyboard and xib based UIViewControllers in the Live View of playgrounds.
+
+For xibs, just instantiate a VC with no arguments and pass it to `loadViewFromNib`, optionally passing a nib name (defaults to the class name).
+
+For storyboards, use `loadVCFromStoryboard` to pass in the name of the storyboard and either: the storyboardId for the VC, or set `isInitialVC` to true.
                        DESC
 
-  s.homepage         = 'https://github.com/Elliot/PlaygroundVCHelpers'
+  s.homepage         = 'https://github.com/ThryvInc/playground-vc-helpers'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Elliot' => 'elliot.schrock@gmail.com' }
-  s.source           = { :git => 'https://github.com/Elliot/PlaygroundVCHelpers.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Elliot' => '' }
+  s.source           = { :git => 'https://github.com/ThryvInc/playground-vc-helpers.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/elliot_schrock'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'PlaygroundVCHelpers/Classes/**/*'
   

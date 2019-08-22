@@ -1,0 +1,16 @@
+PODS:
+  - PlaygroundVCHelpers (0.1.0)
+
+DEPENDENCIES:
+  - PlaygroundVCHelpers (from `../`)
+
+EXTERNAL SOURCES:
+  PlaygroundVCHelpers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PlaygroundVCHelpers: fdd6060467642a1ee50b25d72388662a27a9edf3
+
+PODFILE CHECKSUM: 96d1043b6b08c12681b139961dde680392d51a64
+
+COCOAPODS: 1.7.2
