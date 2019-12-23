@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PlaygroundVCHelpers'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'PlaygroundVCHelpers allows you to work with storyboard and xib based UIViewControllers in playgrounds.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 PlaygroundVCHelpers allows you to work with storyboard and xib based UIViewControllers in the Live View of playgrounds.
